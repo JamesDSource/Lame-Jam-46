@@ -1,7 +1,7 @@
 CC=emcc
 CFLAGS=-Wall -s USE_GLFW=3 -DPLATFORM_WEB
 OUT=game.html
-INCLUDE=-Isrc/ -Ivendor/raylib/src
+INCLUDE=-Isrc/ -Ivendor/raylib
 HTML=minshell.html
 SRC=$(wildcard src/*.c)
 LIBS=-Llib -lraylib

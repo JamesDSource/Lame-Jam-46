@@ -1,0 +1,4 @@
+root = true
+
+[*.c]
+indent_type=tabs
