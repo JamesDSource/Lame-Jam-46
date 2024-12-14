@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "run",
+			"type": "shell",
+			"command": "emrun game.html",
+			"option": {
+				"cwd": "${workspaceFolder}"
+			}
+		}
+	]
+}

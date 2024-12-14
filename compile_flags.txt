@@ -1,0 +1,4 @@
+-Wall
+-DPLATFORM_WEB
+-Isrc/
+-Ivendor/raylib/src
