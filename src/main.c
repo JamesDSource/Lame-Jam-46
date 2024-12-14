@@ -2,6 +2,8 @@
 #include<raylib.h>
 #include<raymath.h>
 #include"state.h"
+#define RAYGUI_IMPLEMENTATION
+#include"raygui.h"
 
 const int CANVAS_WIDTH = 1920;
 const int CANVAS_HEIGHT = 1080;
@@ -12,23 +14,23 @@ const float PLAYER_ACCELERATION = 0.4;
 void tick(void) {
 	// Player movement
 	switch(on_screen) {
-		case SCREEN_MENU:
-			break;
-		case SCREEN_GAME:
-			Vector2 dir = Vector2Normalize((Vector2){
-				IsKeyDown(KEY_D) - IsKeyDown(KEY_A),
-				IsKeyDown(KEY_S) - IsKeyDown(KEY_W),
-			});
-			Vector2 vel = Vector2Multiply(dir, (Vector2){PLAYER_SPEED, PLAYER_SPEED});
-			state.player.pos = Vector2Add(state.player.pos, vel);
-			state.cam.target = Vector2Add(
-				state.cam.target,
-				Vector2Divide(
-					Vector2Subtract(state.player.pos, state.cam.target),
-					(Vector2){10, 10}
-				)
-			);
-			break;
+	case SCREEN_MENU:
+		break;
+	case SCREEN_GAME:
+		; Vector2 dir = Vector2Normalize((Vector2){
+			IsKeyDown(KEY_D) - IsKeyDown(KEY_A),
+			IsKeyDown(KEY_S) - IsKeyDown(KEY_W),
+		});
+		Vector2 vel = Vector2Multiply(dir, (Vector2){PLAYER_SPEED, PLAYER_SPEED});
+		state.player.pos = Vector2Add(state.player.pos, vel);
+		state.cam.target = Vector2Add(
+			state.cam.target,
+			Vector2Divide(
+				Vector2Subtract(state.player.pos, state.cam.target),
+				(Vector2){10, 10}
+			)
+		);
+		break;
 	}
 
 	// Draw
