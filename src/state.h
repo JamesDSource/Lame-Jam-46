@@ -1,5 +1,8 @@
 #include<raylib.h>
 
+#ifndef __STATE_H
+#define __STATE_H
+
 typedef enum {
 	SCREEN_MENU,
 	SCREEN_GAME,
@@ -10,6 +13,7 @@ typedef struct {
 } Settings;
 
 typedef struct {
+	bool paused;
 	Camera2D cam;
 	struct {
 		Vector2 pos;
@@ -20,3 +24,5 @@ typedef struct {
 Screen on_screen;
 Settings settings;
 Game_State state;
+
+#endif

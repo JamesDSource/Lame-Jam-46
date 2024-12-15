@@ -1,0 +1,18 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+    },
+    "map.tileHeight": 128,
+    "map.tileWidth": 128,
+    "openFiles": [
+    ],
+    "project": "casino.tiled-project",
+    "recentFiles": [
+    ]
+}
