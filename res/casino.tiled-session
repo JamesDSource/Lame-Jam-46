@@ -3,16 +3,58 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "",
+    "activeFile": "casino.tmj",
+    "console.history": [
+        "rm WallTiles.tsj"
+    ],
     "expandedProjectPaths": [
+        "."
     ],
     "fileStates": {
+        "FloorTiles.tsj": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 3
+        },
+        "Machines.tsj": {
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "Tiles.tsj": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "WallTiles.tsj": {
+            "dynamicWrapping": true,
+            "scaleInDock": 1,
+            "scaleInEditor": 1
+        },
+        "casino.tmj": {
+            "scale": 0.5,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1582,
+                "y": 1159
+            }
+        }
     },
+    "last.imagePath": "/home/jamesduran/dev/Lame-Jam-46/res",
+    "map.lastUsedFormat": "json",
     "map.tileHeight": 128,
     "map.tileWidth": 128,
     "openFiles": [
+        "casino.tmj",
+        "Tiles.tsj"
     ],
     "project": "casino.tiled-project",
     "recentFiles": [
-    ]
+        "Machines.tsj",
+        "Tiles.tsj",
+        "casino.tmj",
+        "FloorTiles.tsj",
+        "WallTiles.tsj"
+    ],
+    "tileset.lastUsedFormat": "json",
+    "tileset.type": 1
 }

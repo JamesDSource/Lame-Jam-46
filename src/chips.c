@@ -13,7 +13,7 @@ const Color CHIP_COLORS[CHIP_COUNT] = {
 	RED,
 	BLUE,
 	GREEN,
-	BLACK,
+	GRAY,
 };
 
 void chips_from_dollars(int dollars, int (*chips)[CHIP_COUNT]) {
