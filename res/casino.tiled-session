@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "casino.tmj",
+    "activeFile": "casino.json",
     "console.history": [
         "rm WallTiles.tsj"
     ],
@@ -30,6 +30,14 @@
             "scaleInDock": 1,
             "scaleInEditor": 1
         },
+        "casino.json": {
+            "scale": 0.75,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1457.3333333333335,
+                "y": 1612.6666666666665
+            }
+        },
         "casino.tmj": {
             "scale": 0.5,
             "selectedLayer": 1,
@@ -44,13 +52,14 @@
     "map.tileHeight": 128,
     "map.tileWidth": 128,
     "openFiles": [
-        "casino.tmj",
+        "casino.json",
         "Tiles.tsj"
     ],
     "project": "casino.tiled-project",
     "recentFiles": [
-        "Machines.tsj",
         "Tiles.tsj",
+        "casino.json",
+        "Machines.tsj",
         "casino.tmj",
         "FloorTiles.tsj",
         "WallTiles.tsj"
