@@ -31,11 +31,11 @@
             "scaleInEditor": 1
         },
         "casino.json": {
-            "scale": 0.75,
+            "scale": 0.125,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 1457.3333333333335,
-                "y": 1612.6666666666665
+                "x": -1504,
+                "y": -1196
             }
         },
         "casino.tmj": {
@@ -52,13 +52,12 @@
     "map.tileHeight": 128,
     "map.tileWidth": 128,
     "openFiles": [
-        "casino.json",
-        "Tiles.tsj"
+        "casino.json"
     ],
     "project": "casino.tiled-project",
     "recentFiles": [
-        "Tiles.tsj",
         "casino.json",
+        "Tiles.tsj",
         "Machines.tsj",
         "casino.tmj",
         "FloorTiles.tsj",

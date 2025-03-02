@@ -1,14 +1,15 @@
 #define RAYGUI_IMPLEMENTATION
 
-#include <emscripten/emscripten.h>
 #include <assert.h>
 #include <raylib.h>
 #include <raymath.h>
+
 #include "raygui.h"
 #include "state.h"
 #include "chips.h"
 #include "player.h"
 #include "assets.h"
+#include "platform.h"
 
 typedef enum {
 	MENU_TYPE_MAIN,
@@ -308,7 +309,7 @@ int main(void) {
 	InitAudioDevice();
 	load_assets();
 	init_state();
-	emscripten_set_main_loop(tick, 60, 1);
+	platform_loop();
 	CloseWindow();
 	return 0;
 }
